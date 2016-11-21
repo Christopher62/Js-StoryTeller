@@ -1,3 +1,4 @@
+console.log("Début du script");
 var prenom = prompt("Saisissez un prénom");
 var nom = document.getElementById("nom");
 nom.innerHTML = prenom;
@@ -18,3 +19,4 @@ console.log(age);
 console.log(ville);
 console.log(formation);
 console.log(date);
+console.log("Fin du script");
