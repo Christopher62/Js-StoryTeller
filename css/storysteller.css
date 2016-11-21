@@ -1,0 +1,42 @@
+@font-face {
+  font-family: Hamster;
+  src: url(../fonts/Hamster.otf); /*police hamster*/
+}
+@font-face {
+  font-family: BearHugsby;
+  src: url(../fonts/BEARHUGSBYRATTICSASSIN-Regular.ttf); /*police BearHugsby*/
+}
+body{
+  background-image:url(../images/back2.jpg);
+  background-size: 100% 673px;
+}
+#nom{
+  font-family: Hamster;
+  font-size: 25px;
+  color: blue;
+}
+#age{
+  font-family: fantasy;
+  font-style: oblique;
+  color: green;
+}
+#ville{
+  font-family: monospace;
+  font-size: 20px;
+  color: red;
+}
+#formation{
+  font-family: BearHugsby;
+  font-style: italic;
+  color: purple;
+  font-size: 15px;
+}
+#date{
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 15px;
+  color: orange;
+}
+p{
+  margin-left: 2px;
+}

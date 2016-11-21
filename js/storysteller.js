@@ -1,0 +1,20 @@
+var prenom = prompt("Saisissez un prénom");
+var nom = document.getElementById("nom");
+nom.innerHTML = prenom;
+var age = prompt("Saisissez l'âge");
+var annee = document.getElementById("age");
+annee.innerHTML = age;
+var ville = prompt("Saisissez une ville");
+var repville = document.getElementById("ville");
+repville.innerHTML = ville;
+var formation = prompt("Saisissez le nom de la formation");
+var nomformation = document.getElementById("formation");
+nomformation.innerHTML = formation;
+var date = prompt("Saisissez une date (JJ/MM/AAAA)");
+var jour = document.getElementById("date")
+jour.innerHTML = date;
+console.log(prenom);
+console.log(age);
+console.log(ville);
+console.log(formation);
+console.log(date);
